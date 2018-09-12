@@ -155,7 +155,9 @@ public class Vehiculo {
       return gananciaDelDia;
    }
 
-
+   public void imprimirPasajeros(){
+       System.out.println(pasajeros);
+   }
 }
 
 

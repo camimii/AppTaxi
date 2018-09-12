@@ -128,9 +128,9 @@ public class Vehiculo {
    
     public void terminarVuelta(){
         System.out.println("La vuelta ha finalizado");
-        System.out.println(verTotalGastoBencina());
-        verGananciaxSubida();
-        verGananciaDelDia();
+        System.out.println("El gasto de bencina fue: $"+verTotalGastoBencina());
+        System.out.println("La ganacia por subida fue: $"+verGananciaxSubida());
+        
         
         
     }

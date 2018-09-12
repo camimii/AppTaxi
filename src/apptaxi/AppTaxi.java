@@ -19,11 +19,12 @@ public class AppTaxi {
         Vehiculo taxi1 = new Vehiculo (1231,"asd13","Suzuki","rtblabla",1993,13,20,0);
         taxi1.iniciarVuelta(700);
         // Quien se sube? :O
-        Pasajero camila = new Pasajero();
+        Pasajero camila = new Pasajero("camila", "asd", ":O");
         taxi1.subirPasajero(camila);
         taxi1.verTotalGastoBencina();
-        taxi1.verGananciaxSubida();
         
+        //taxi1.verGananciaxSubida();
+        taxi1.terminarVuelta();
         
     }
     

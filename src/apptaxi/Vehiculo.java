@@ -123,7 +123,7 @@ public class Vehiculo {
     
     public void iniciarVuelta(int precioPasaje){
         this.kmxVuelta = 100;
-        System.out.println("La vuelta ha iniciado, los km a recorrer son: "+kmxVuelta+"\nElprecio del pasaje es: "+precioPasaje);
+        System.out.println("La vuelta ha iniciado, los km a recorrer son: "+kmxVuelta+"\nEl precio del pasaje es: "+precioPasaje);
    }
    
     public void terminarVuelta(){

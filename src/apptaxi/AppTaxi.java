@@ -21,6 +21,8 @@ public class AppTaxi {
         // Quien se sube? :O
         Pasajero camila = new Pasajero("ADSJADS", "Camila", ":O");
         taxi1.subirPasajero(camila);
+        Pasajero pepe = new Pasajero ("blabl","Pepe","por ahí");
+        taxi1.subirPasajero(pepe);
         taxi1.terminarVuelta();
 
         //taxi1.verGananciaxSubida();

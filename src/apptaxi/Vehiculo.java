@@ -156,7 +156,13 @@ public class Vehiculo {
    }
 
    public void imprimirPasajeros(){
-       System.out.println(pasajeros);
+       System.out.println("Los pasajeros son:");
+       for( int i = 0; i < pasajeros.length; i++){
+           if(pasajeros[i] != null){
+               System.out.println(pasajeros[i].getNombre());
+           }
+           
+       }
    }
 }
 

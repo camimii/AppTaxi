@@ -21,6 +21,7 @@ public class AppTaxi {
         taxi1.subirPasajero();
         taxi1.verTotalGastoBencina();
         taxi1.verGananciaxSubida();
+        taxi1.terminarVuelta();
         
         
     }

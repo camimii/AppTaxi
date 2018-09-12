@@ -104,12 +104,21 @@ public class Vehiculo {
     public void setPrecioPasaje(int precioPasaje) {
         this.precioPasaje = precioPasaje;
     }
-
+    /*
     public void subirPasajero(){
         for(int x = 0;x >= 16;x++){
             pasajeros[x] = new Pasajero("asd","ads","asd"); 
         }
         
+    }
+    */
+    public void subirPasajero(Pasajero esteSujeto){
+        for(int x = 0; x < 16 ; x++){
+            if(pasajeros[x] == null){
+                pasajeros[x] = esteSujeto;
+                break;
+            }
+        }
     }
     
     public void iniciarVuelta(int precioPasaje){

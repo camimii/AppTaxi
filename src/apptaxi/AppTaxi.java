@@ -18,7 +18,9 @@ public class AppTaxi {
         // TODO code application logic here
         Vehiculo taxi1 = new Vehiculo (1231,"asd13","Suzuki","rtblabla",1993,13,20,0);
         taxi1.iniciarVuelta(700);
-        taxi1.subirPasajero();
+        // Quien se sube? :O
+        Pasajero camila = new Pasajero();
+        taxi1.subirPasajero(camila);
         taxi1.verTotalGastoBencina();
         taxi1.verGananciaxSubida();
         taxi1.terminarVuelta();

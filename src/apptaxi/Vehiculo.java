@@ -123,6 +123,7 @@ public class Vehiculo {
     
     public void iniciarVuelta(int precioPasaje){
         this.kmxVuelta = 100;
+        this.precioPasaje = precioPasaje;
         System.out.println("La vuelta ha iniciado, los km a recorrer son: "+kmxVuelta+"\nEl precio del pasaje es: "+precioPasaje);
    }
    
@@ -143,8 +144,12 @@ public class Vehiculo {
    } 
     
    public int verGananciaxSubida(){
-       int ganancia;
-       ganancia = pasajeros.length*precioPasaje;
+       int ganancia = 0;
+       for(int i = 0; i< pasajeros.length; i++){
+           if(pasajeros[i] != null){
+               ganancia += precioPasaje;
+           }
+       }
        return ganancia;
        
    }
@@ -156,7 +161,7 @@ public class Vehiculo {
    }
 
    public void imprimirPasajeros(){
-       System.out.println("Los pasajeros son:");
+       System.out.println("Los pasajeros fueron:");
        for( int i = 0; i < pasajeros.length; i++){
            if(pasajeros[i] != null){
                System.out.println(pasajeros[i].getNombre());

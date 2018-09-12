@@ -21,12 +21,9 @@ public class AppTaxi {
         // Quien se sube? :O
         Pasajero camila = new Pasajero("ADSJADS", "Camila", ":O");
         taxi1.subirPasajero(camila);
-        taxi1.verTotalGastoBencina();
-        taxi1.verGananciaxSubida();
         taxi1.terminarVuelta();
-        
+
         //taxi1.verGananciaxSubida();
-        taxi1.terminarVuelta();
         taxi1.imprimirPasajeros();
     }
     

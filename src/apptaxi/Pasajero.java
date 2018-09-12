@@ -14,12 +14,16 @@ public class Pasajero {
     protected String nombre;
     protected String paradaBajada;
     
-    
+    // y esto son dos constructores en uno (?)
     public Pasajero(String rut, String nombre, String paradaBajada) {
+        /*
         this.rut = "18540362-9";
         this.nombre = "Camila";
         this.paradaBajada = "Pajaritos 100";
-        
+        */
+        this.rut = rut;
+        this.nombre = nombre;
+        this.paradaBajada = paradaBajada;
     }
 
     public String getRut() {

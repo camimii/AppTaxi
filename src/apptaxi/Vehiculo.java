@@ -128,7 +128,7 @@ public class Vehiculo {
    
     public void terminarVuelta(){
         System.out.println("La vuelta ha finalizado");
-        verTotalGastoBencina();
+        System.out.println(verTotalGastoBencina());
         verGananciaxSubida();
         verGananciaDelDia();
         
